@@ -1,4 +1,23 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Charm&family=Lobster&family=Oxygen&family=Poppins:wght@500&family=Raleway:wght@500;600&display=swap');
+
 *{
     padding: 0px;
     margin:0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Oxygen', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navigation a{
+    text-decoration: none;
+
 }
